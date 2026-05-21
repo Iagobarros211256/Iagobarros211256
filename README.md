@@ -88,14 +88,18 @@ func main() {
 
 <div align="center">
 
-<img height="175em" src="https://github-readme-stats.vercel.app/api?username=Iagobarros211256&show_icons=true&theme=tomorrow_night&hide_border=true&bg_color=0a0a0f&title_color=00ffe7&icon_color=ff0064&text_color=a0a0cc&border_color=00ffe7"/>
-<img height="175em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Iagobarros211256&layout=compact&theme=tomorrow_night&hide_border=true&bg_color=0a0a0f&title_color=00ffe7&text_color=a0a0cc&langs_count=6"/>
+<table>
+  <tr>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api?username=Iagobarros211256&show_icons=true&theme=tomorrow_night&hide_border=true&bg_color=0a0a0f&title_color=00ffe7&icon_color=ff0064&text_color=a0a0cc" />
+    </td>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Iagobarros211256&layout=compact&theme=tomorrow_night&hide_border=true&bg_color=0a0a0f&title_color=00ffe7&text_color=a0a0cc&langs_count=6" />
+    </td>
+  </tr>
+</table>
 
-</div>
-
-<div align="center">
-
-![GitHub Streak](https://streak-stats.demolab.com?user=Iagobarros211256&theme=dark&hide_border=true&background=0a0a0f&ring=00ffe7&fire=ff0064&currStreakLabel=00ffe7&sideLabels=a0a0cc&dates=666688)
+<img src="https://streak-stats.demolab.com?user=Iagobarros211256&theme=dark&hide_border=true&background=0a0a0f&ring=00ffe7&fire=ff0064&currStreakLabel=00ffe7&sideLabels=a0a0cc&dates=666688" />
 
 </div>
 
