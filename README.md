@@ -118,6 +118,7 @@ func main() {
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GITHUB-Iagobarros211256-00ffe7?style=for-the-badge&logo=github&logoColor=black&labelColor=0a0a0f)](https://github.com/Iagobarros211256)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-iagobarrosg-ff0064?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0a0a0f)](https://www.linkedin.com/in/iagobarrosg)
 
 </div>
 
