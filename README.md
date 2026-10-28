@@ -1,14 +1,16 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:00ffe7,50:ff0064,100:0a0a0f&height=190&section=header&text=IAGO%20BARROS&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Backend%20%7C%20Software%20Engineering%20%7C%20Linux&descAlignY=59&descSize=16" width="100%" alt="Iago Barros — Backend, Software Engineering, Linux" />
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:00ffe7,50:ff0064,100:0a0a0f&height=190&section=header&text=IAGO%20BARROS&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Backend%20%7C%20Go%20%7C%20PHP%2FLaravel%20%7C%20Linux&descAlignY=59&descSize=16" width="100%" alt="Iago Barros — Backend, Go, PHP/Laravel, Linux" />
 
-**Desenvolvedor de software · Fortaleza, CE**
+**Desenvolvedor backend · Fortaleza, CE**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/iagobarrosg)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
 </div>
@@ -17,93 +19,98 @@
 
 ## `// sobre`
 
-Sou **Iago de Barros Gomes**, desenvolvedor de software com foco em **backend, sistemas de gestão e engenharia de software**.
+Sou **Iago de Barros Gomes**, desenvolvedor com foco em **backend e sistemas de gestão**.
 
-Depois de mais de uma década na operação industrial, migrei para o desenvolvimento. Trago dessa experiência a preocupação com processos reais, consistência de dados, rastreabilidade e impacto operacional.
+Passei mais de uma década no chão de fábrica, operando linhas de embalagem e robôs paletizadores. É de lá que vem o jeito como penso software: processo real, dado consistente, rastreabilidade e o custo de uma parada.
 
-Atualmente desenvolvo e mantenho aplicações corporativas com **PHP, Laravel, Filament e PostgreSQL**, participando da modelagem de regras de negócio, testes automatizados, manutenção, integração contínua e deploy em Linux. Também colaboro em projetos com **React, TypeScript e Supabase**.
-
-Tenho interesse especial em **Go, arquitetura de software, sistemas distribuídos, cloud e programação de sistemas**.
+Hoje desenvolvo e mantenho sistemas corporativos em **PHP/Laravel/Filament + PostgreSQL**, colaboro em produto **React + Supabase** e construo projetos próprios em **Go, Java e C** — de APIs em produção a um compilador escrito do zero.
 
 ---
 
-## `// experiência e projetos profissionais`
+## `// experiência`
 
-### 🏢 Sistema Y — Gestão financeira e operacional | Ynnovar Facilities
+### 🏢 Ynnovar Facilities — Estágio em TI · set/2026 – atual
 
-**Desenvolvimento e manutenção de aplicação corporativa interna**, utilizada para centralizar processos financeiros e operacionais.
+Único desenvolvedor da empresa: cuido do código, do deploy e da manutenção dos sistemas internos.
 
-- Desenvolvimento de módulos para **lançamentos financeiros, contratos, centros de custo, orçamentos e provisionamentos**.
-- Modelagem de **colaboradores, escalas, equipes e ocorrências operacionais**, com diferentes regras de acesso por perfil.
-- Implementação e manutenção de **testes automatizados, análise estática e verificações de segurança** no pipeline de CI.
-- Cuidados com **integridade financeira**, trilha de auditoria, backup, migrações de banco e procedimentos de deploy.
-- Trabalho direto com necessidades do negócio, da investigação do problema à entrega e acompanhamento.
+**Sistema de gestão financeira e operacional**
+- Módulos de **lançamentos financeiros, contratos, centros de custo, orçamentos e provisionamentos**.
+- Modelagem de **colaboradores, escalas, equipes e ocorrências**, com regras de acesso por perfil.
+- **Testes automatizados, análise estática e verificações de segurança** no pipeline de CI.
+- Integridade financeira, trilha de auditoria, backups, migrações e procedimentos de deploy.
+
+**Site institucional**
+- Manutenção e evolução em produção (VPS Linux): atualização de dependências, segurança de formulários, fluxo de deploy.
 
 `PHP` · `Laravel` · `Filament` · `PostgreSQL` · `GitHub Actions` · `Linux`
 
-> Repositório privado. As informações acima descrevem responsabilidades e práticas gerais, sem expor código ou dados internos.
+> Código privado — descrição em nível de responsabilidade, sem expor código ou dados internos.
 
-### 🤝 DataHosp — Plataforma de gestão de hospedagem | KeyCore
+### 🤝 DataHosp (KeyCore) — Colaborador
 
-**Colaboração em produto web com arquitetura multi-tenant**, abrangendo operações administrativas e fluxos de atendimento ao hóspede.
+Produto web **multi-tenant** de gestão de hospedagem.
 
-- Mapeamento do caminho **interface → serviços → banco de dados**, incluindo políticas de acesso e chamadas RPC.
-- Documentação técnica de **seis fluxos da aplicação**, cobrindo autenticação, hospedagem, pedidos, catálogo e relatórios.
-- Trabalho com **issues, branches dedicadas, revisão de código e pull requests**.
-- Investigação de comportamentos e inconsistências, registrando evidências e pendências sem alterar componentes fora do escopo.
+- Mapeamento do caminho **interface → serviços → banco**, incluindo políticas RLS e RPCs em PL/pgSQL.
+- Documentação técnica de **seis fluxos** da aplicação (autenticação, hospedagem, pedidos, catálogo, relatórios) — **PR #22**, incorporado em out/2026.
+- Fluxo de time: issues, branches dedicadas, code review e pull requests.
 
-**Contribuição registrada:** PR #22 — documentação dos fluxos, incorporada em outubro de 2026.
-
-`React` · `TypeScript` · `Vite` · `Supabase` · `PostgreSQL` · `RLS` · `Tailwind CSS`
-
-> Projeto privado; detalhes técnicos apresentados em nível geral.
-
-### 🏭 [Projeto MES](https://github.com/Iagobarros211256/projeto-mes) — Gestão de manutenção industrial
-
-Projeto de engenharia de software aplicado ao domínio industrial, aproximando experiência de chão de fábrica e desenvolvimento backend.
-
-- Modelagem de ordens de serviço, estados e processos de manutenção.
-- Organização de responsabilidades de domínio e persistência de dados.
-- Estudo e aplicação de arquitetura de backend e integração com banco relacional.
-
-`Java` · `Spring Boot` · `PostgreSQL`
-
-### 🌐 Site institucional | Ynnovar Facilities
-
-Manutenção e evolução de aplicação web institucional, com atenção à **segurança, atualização de dependências, formulários e ambiente de produção**.
-
-`PHP` · `Laravel` · `Filament` · `Tailwind CSS` · `Linux`
-
-> Código corporativo privado.
+`React` · `TypeScript` · `Vite` · `Supabase` · `PostgreSQL` · `RLS`
 
 ---
 
-## `// projetos técnicos independentes`
+## `// projetos em destaque`
 
-### [Ytsejam](https://github.com/Iagobarros211256/ytsejam) — Compilador para Linux x86-64
+### 🏭 [Projeto MES](https://github.com/Iagobarros211256/projeto-mes) — Manutenção e produção industrial
+Backend para uma fábrica de biscoitos fictícia, modelado a partir do que vivi na operação: **paradas de máquina, ordens de serviço** (máquina de estados), **manutenção preventiva, estoque de peças, apontamento de produção e dashboard**.
+- Monólito modular, **RBAC com 5 perfis** (Spring Security), 8 migrations **Flyway**
+- Notificações em tempo real via **WebSocket/STOMP** disparadas só após o commit da transação
+- Testes unitários e de integração com **Testcontainers** (Postgres real)
 
-Exploração da construção de compiladores para um subconjunto de **C17**, com análise léxica, parsing e geração de código nativo.
+`Java 21` · `Spring Boot 3` · `PostgreSQL` · `Flyway` · `Testcontainers` · `Docker`
 
-`C` · `Assembly x86-64` · `ELF` · `GNU Binutils`
+### 🛒 [Volurya](https://github.com/Iagobarros211256/volurya) — API de e-commerce em Go · [em produção](https://volurya.onrender.com)
+API para produtos, pedidos e clientes de uma banda.
+- **JWT** com bcrypt, cookies HttpOnly e rotação de refresh token
+- Pagamentos com **Stripe**, e-mails transacionais, testes contra **PostgreSQL** real
+- Clean Architecture simplificada, **Docker**, CI no **GitHub Actions** e deploy no Render
 
-### [Stego](https://github.com/Iagobarros211256/stego) + [Linux Desktop Gremlin](https://github.com/Iagobarros211256/linux-desktop-gremlin)
+`Go` · `Gin` · `PostgreSQL` · `Stripe` · `Docker` · `GitHub Actions`
 
-Dois projetos integrados de **IA local e interface desktop no Linux**: recuperação de conhecimento com SQLite/Ollama e aplicação gráfica em Python/Qt6, com comunicação entre componentes.
+### 🛡️ [wp-threat-kit](https://github.com/Iagobarros211256/wp-threat-kit) — Detecção de backdoor em WordPress
+Kit defensivo nascido da análise de um site comprometido real.
+- **wphunter**: scanner de IOC em Go, só leitura, com saída JSON para CI
+- Regras **YARA** validadas e um **lab Docker isolado** (rede sem saída) com demonstrador benigno
+- Write-up das técnicas de evasão e lições aplicadas a Laravel, Go e Supabase
 
-`Python` · `PySide6` · `Qt6` · `SQLite` · `FTS5` · `Ollama`
+`Go` · `YARA` · `Docker` · `Segurança defensiva`
+
+### 🔎 [Stego](https://github.com/Iagobarros211256/stego) — Base de conhecimento pessoal com IA local
+RAG 100% offline sobre documentos locais, rodando numa RX 580 via Vulkan.
+- Busca híbrida: **vetorial + BM25 (FTS5)** fundidas por Reciprocal Rank Fusion
+- Respostas com citação do trecho de origem — e recusa quando não encontra
+- Integrado a um [desktop pet](https://github.com/Iagobarros211256/linux-desktop-gremlin) (fork com monitor de sistema e atalho no KDE) em PySide6
+
+`Python` · `SQLite` · `sqlite-vec` · `Ollama` · `PySide6`
+
+### ⚙️ [Ytsejam](https://github.com/Iagobarros211256/ytsejam) — Linguagem de programação compilada, escrita em C
+Linguagem própria, inspirada na simplicidade de Go, com compilador nativo para Linux x86-64 — sem LLVM.
+- **Lexer e parser** (descida recursiva, AST completa, recuperação de erro) com suíte de testes
+- Em andamento: análise semântica e geração de assembly x86-64 via GNU Binutils
+
+`C17` · `x86-64` · `ELF` · `GNU Binutils`
 
 ---
 
-## `// stack e práticas de engenharia`
+## `// stack`
 
 | Área | Tecnologias e práticas |
 |---|---|
-| **Backend** | PHP, Laravel, Filament, Go, Java, Spring Boot, APIs REST |
+| **Backend** | Go, PHP/Laravel/Filament, Java/Spring Boot, Python, APIs REST |
 | **Frontend** | React, TypeScript, Tailwind CSS |
-| **Dados** | PostgreSQL, SQLite, Supabase, SQL |
-| **Qualidade** | Testes automatizados, análise estática, revisão de código, GitHub Actions |
-| **Infraestrutura** | Linux, Docker, Git, Bash, deploy e backups |
-| **Interesses** | Sistemas distribuídos, cloud, arquitetura, compiladores e programação de sistemas |
+| **Dados** | PostgreSQL, Supabase (RLS, RPC), SQLite, Flyway |
+| **Qualidade** | Testes unitários e de integração, Testcontainers, análise estática, code review |
+| **Infra** | Linux, Docker, GitHub Actions, Render, VPS, Bash |
+| **Estudando** | Sistemas distribuídos, cloud, compiladores, sistemas operacionais |
 
 ---
 
