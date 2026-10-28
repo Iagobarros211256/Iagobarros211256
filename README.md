@@ -1,17 +1,15 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:00ffe7,50:ff0064,100:0a0a0f&height=200&section=header&text=IAGO%20BARROS&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Backend%20%C2%B7%20Go%20%C2%B7%20Java%20%C2%B7%20Compiladores&descAlignY=58&descSize=17&descAlign=50" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:00ffe7,50:ff0064,100:0a0a0f&height=190&section=header&text=IAGO%20BARROS&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Backend%20%7C%20Software%20Engineering%20%7C%20Linux&descAlignY=59&descSize=16" width="100%" alt="Iago Barros — Backend, Software Engineering, Linux" />
 
-[![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)](#)
-[![Java](https://img.shields.io/badge/Java%2021-ED8B00?style=flat-square&logo=openjdk&logoColor=white)](#)
-[![Spring](https://img.shields.io/badge/Spring%20Boot%203-6DB33F?style=flat-square&logo=springboot&logoColor=white)](#)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)](#)
-[![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)](#)
-[![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)](#)
+**Desenvolvedor de software · Fortaleza, CE**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-iagobarrosg-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/iagobarrosg)
-![Fortaleza](https://img.shields.io/badge/Fortaleza,%20CE-BR-0a0a0f?style=flat-square)
-![Aberto a propostas](https://img.shields.io/badge/aberto%20a%20propostas-00ffe7?style=flat-square&labelColor=0a0a0f)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/iagobarrosg)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
 </div>
 
@@ -19,84 +17,93 @@
 
 ## `// sobre`
 
-Sou **Iago de Barros Gomes**, desenvolvedor backend em Fortaleza. Venho da operação industrial e migrei para software — o que significa que já vivi do outro lado do sistema: parada de linha, ordem de serviço, apontamento de produção, o custo real de um minuto de máquina parada. Hoje escrevo os sistemas que resolvem isso.
+Sou **Iago de Barros Gomes**, desenvolvedor de software com foco em **backend, sistemas de gestão e engenharia de software**.
 
-Gosto de problemas onde a resposta não está pronta no Stack Overflow. Por isso meus projetos principais são compiladores: escrever um lexer, um parser e um gerador de código do zero ensina mais sobre linguagens, memória e arquitetura do que qualquer curso.
+Depois de mais de uma década na operação industrial, migrei para o desenvolvimento. Trago dessa experiência a preocupação com processos reais, consistência de dados, rastreabilidade e impacto operacional.
 
-Trabalho com **Go** e **Java/Spring Boot** no backend, Linux no dia a dia, e disciplina de engenharia nos projetos pessoais: ADRs para decisões, testes de verdade, CI no GitHub Actions.
+Atualmente desenvolvo e mantenho aplicações corporativas com **PHP, Laravel, Filament e PostgreSQL**, participando da modelagem de regras de negócio, testes automatizados, manutenção, integração contínua e deploy em Linux. Também colaboro em projetos com **React, TypeScript e Supabase**.
 
----
-
-## `// projetos`
-
-### 🔧 [Ytsejam](https://github.com/Iagobarros211256/ytsejam) — Compilador C17 → ELF x86-64
-
-Compilador de um subconjunto de C17 que gera **binário ELF nativo para Linux x86-64**, sem LLVM: geração de código própria, montagem via GNU Binutils.
-
-- Lexer e parser recursivo-descendente escritos à mão, com recuperação de erros
-- ~97 testes automatizados; bug de string não terminada encontrado e coberto por teste de regressão
-- Decisões registradas em ADR (codegen próprio, memória em stack no MVP)
-- Critério de MVP: compilar Fibonacci recursivo e `echo $?` retornar `55`
-
-`C` · `x86-64 Assembly` · `GNU Binutils` · `ELF`
-
-### ☕ [Golshi](https://github.com/Iagobarros211256/golshi) — Linguagem OO que compila para bytecode JVM
-
-Linguagem orientada a objetos própria, com compilador em Java que emite **arquivos `.class` reais** via biblioteca ASM — rodam em qualquer JVM.
-
-- Suporte a classes, herança, interfaces, polimorfismo e generics
-- Despacho de métodos delegado à JVM (`invokevirtual` / `invokeinterface`)
-- `COMPUTE_FRAMES` do ASM para geração de stack map frames
-- Gradle + Java 21 + JUnit 5 + GitHub Actions CI
-
-`Java 21` · `ASM` · `Gradle` · `JUnit 5`
-
-### 🏭 [Sistema de Gestão de Manutenção (MES)](https://github.com/Iagobarros211256/projeto-mes) — Java + Spring Boot
-
-Sistema de manutenção industrial para uma fábrica fictícia, construído como monólito modular. É o projeto onde minha bagagem de chão de fábrica aparece no domínio.
-
-- Ordens de serviço com máquina de estados (`ABERTA → EM_ANDAMENTO → CONCLUÍDA/CANCELADA`)
-- Módulo de paradas de máquina e dashboard de **OEE** (Disponibilidade × Performance × Qualidade)
-- Notificações em tempo real com WebSocket/STOMP disparadas após commit da transação
-- Spring Security com RBAC, migrações Flyway, Criteria API para filtros dinâmicos
-- Testes de integração com **Testcontainers** contra PostgreSQL real
-
-`Java 21` · `Spring Boot 3` · `PostgreSQL` · `Flyway` · `React` · `TypeScript`
-
-### 🛒 [Volurya API](https://github.com/Iagobarros211256/volurya-api) — Backend de e-commerce em Go
-
-API REST para loja de merch de banda: catálogo, pedidos e autenticação.
-
-`Go` · `PostgreSQL` · `Docker`
+Tenho interesse especial em **Go, arquitetura de software, sistemas distribuídos, cloud e programação de sistemas**.
 
 ---
 
-<details>
-<summary><code>// outros projetos em andamento</code></summary>
+## `// experiência e projetos profissionais`
 
-<br>
+### 🏢 Sistema Y — Gestão financeira e operacional | Ynnovar Facilities
 
-| Projeto | O que é |
+**Desenvolvimento e manutenção de aplicação corporativa interna**, utilizada para centralizar processos financeiros e operacionais.
+
+- Desenvolvimento de módulos para **lançamentos financeiros, contratos, centros de custo, orçamentos e provisionamentos**.
+- Modelagem de **colaboradores, escalas, equipes e ocorrências operacionais**, com diferentes regras de acesso por perfil.
+- Implementação e manutenção de **testes automatizados, análise estática e verificações de segurança** no pipeline de CI.
+- Cuidados com **integridade financeira**, trilha de auditoria, backup, migrações de banco e procedimentos de deploy.
+- Trabalho direto com necessidades do negócio, da investigação do problema à entrega e acompanhamento.
+
+`PHP` · `Laravel` · `Filament` · `PostgreSQL` · `GitHub Actions` · `Linux`
+
+> Repositório privado. As informações acima descrevem responsabilidades e práticas gerais, sem expor código ou dados internos.
+
+### 🤝 DataHosp — Plataforma de gestão de hospedagem | KeyCore
+
+**Colaboração em produto web com arquitetura multi-tenant**, abrangendo operações administrativas e fluxos de atendimento ao hóspede.
+
+- Mapeamento do caminho **interface → serviços → banco de dados**, incluindo políticas de acesso e chamadas RPC.
+- Documentação técnica de **seis fluxos da aplicação**, cobrindo autenticação, hospedagem, pedidos, catálogo e relatórios.
+- Trabalho com **issues, branches dedicadas, revisão de código e pull requests**.
+- Investigação de comportamentos e inconsistências, registrando evidências e pendências sem alterar componentes fora do escopo.
+
+**Contribuição registrada:** PR #22 — documentação dos fluxos, incorporada em outubro de 2026.
+
+`React` · `TypeScript` · `Vite` · `Supabase` · `PostgreSQL` · `RLS` · `Tailwind CSS`
+
+> Projeto privado; detalhes técnicos apresentados em nível geral.
+
+### 🏭 [Projeto MES](https://github.com/Iagobarros211256/projeto-mes) — Gestão de manutenção industrial
+
+Projeto de engenharia de software aplicado ao domínio industrial, aproximando experiência de chão de fábrica e desenvolvimento backend.
+
+- Modelagem de ordens de serviço, estados e processos de manutenção.
+- Organização de responsabilidades de domínio e persistência de dados.
+- Estudo e aplicação de arquitetura de backend e integração com banco relacional.
+
+`Java` · `Spring Boot` · `PostgreSQL`
+
+### 🌐 Site institucional | Ynnovar Facilities
+
+Manutenção e evolução de aplicação web institucional, com atenção à **segurança, atualização de dependências, formulários e ambiente de produção**.
+
+`PHP` · `Laravel` · `Filament` · `Tailwind CSS` · `Linux`
+
+> Código corporativo privado.
+
+---
+
+## `// projetos técnicos independentes`
+
+### [Ytsejam](https://github.com/Iagobarros211256/ytsejam) — Compilador para Linux x86-64
+
+Exploração da construção de compiladores para um subconjunto de **C17**, com análise léxica, parsing e geração de código nativo.
+
+`C` · `Assembly x86-64` · `ELF` · `GNU Binutils`
+
+### [Stego](https://github.com/Iagobarros211256/stego) + [Linux Desktop Gremlin](https://github.com/Iagobarros211256/linux-desktop-gremlin)
+
+Dois projetos integrados de **IA local e interface desktop no Linux**: recuperação de conhecimento com SQLite/Ollama e aplicação gráfica em Python/Qt6, com comunicação entre componentes.
+
+`Python` · `PySide6` · `Qt6` · `SQLite` · `FTS5` · `Ollama`
+
+---
+
+## `// stack e práticas de engenharia`
+
+| Área | Tecnologias e práticas |
 |---|---|
-| **Library Lending System** | Sistema de empréstimo de biblioteca em Go, com regra autoimposta de usar **só a biblioteca padrão** — `net/http` puro, `database/sql` com SQL cru, sem ORM e sem framework |
-| **Counterparts** | Sistema contábil/financeiro com dashboard para a mesma fábrica fictícia do projeto MES |
-| **Discipline** | Ponto eletrônico e folha de pagamento (estilo ADP) |
-| **Stego** | RAG pessoal rodando local com Ollama sobre meu acervo de documentos |
-| **Distro própria** | Construção de uma distribuição Linux a partir do Linux From Scratch |
-
-</details>
-
----
-
-## `// stack`
-
-**Linguagens** — Go · Java 21 · C · TypeScript · SQL · Bash
-
-**Backend** — Spring Boot 3 · REST · WebSocket/STOMP · JWT / Spring Security
-
-**Dados** — PostgreSQL · MySQL · Flyway · JPA / Criteria API
-
-**Infra & testes** — Docker · Testcontainers · JUnit 5 · GitHub Actions · Linux
+| **Backend** | PHP, Laravel, Filament, Go, Java, Spring Boot, APIs REST |
+| **Frontend** | React, TypeScript, Tailwind CSS |
+| **Dados** | PostgreSQL, SQLite, Supabase, SQL |
+| **Qualidade** | Testes automatizados, análise estática, revisão de código, GitHub Actions |
+| **Infraestrutura** | Linux, Docker, Git, Bash, deploy e backups |
+| **Interesses** | Sistemas distribuídos, cloud, arquitetura, compiladores e programação de sistemas |
 
 ---
 
@@ -105,22 +112,7 @@ API REST para loja de merch de banda: catálogo, pedidos e autenticação.
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-iagobarrosg-ff0064?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0a0a0f)](https://www.linkedin.com/in/iagobarrosg)
-[![Email](https://img.shields.io/badge/EMAIL-fale%20comigo-00ffe7?style=for-the-badge&logo=gmail&logoColor=black&labelColor=0a0a0f)](mailto:SEU-EMAIL@exemplo.com)
 
-</div>
-
-<div align="center">
-
-<details>
-<summary><code>// estatísticas</code></summary>
-
-<br>
-
-<img src="https://github-readme-stats.vercel.app/api?username=Iagobarros211256&show_icons=true&theme=tomorrow_night&hide_border=true&bg_color=0a0a0f&title_color=00ffe7&icon_color=ff0064&text_color=a0a0cc" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Iagobarros211256&layout=compact&theme=tomorrow_night&hide_border=true&bg_color=0a0a0f&title_color=00ffe7&text_color=a0a0cc&langs_count=6" />
-
-</details>
-
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0a0a0f,50:ff0064,100:00ffe7&height=110&section=footer" width="100%"/>
+<sub>Software para problemas reais, com atenção à engenharia por trás de cada entrega.</sub>
 
 </div>
